@@ -1,0 +1,14 @@
+name: 'Kitten Packen'
+type: theme
+description: 'The first Drupal 8 theme to blend webpack and kittens into one.'
+core: 8.x
+base_theme: classy
+
+libraries:
+  - kitten_packen/global-styles
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar First'
+  footer: Footer

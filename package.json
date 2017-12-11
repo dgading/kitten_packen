@@ -1,0 +1,16 @@
+{
+  "name": "kitten_packen",
+  "version": "1.0.0",
+  "description": "A Drupal 8 Starter Theme",
+  "author": "Daniel Gading <dgading@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.10.0"
+  }
+}

@@ -1,0 +1,4 @@
+global-styles:
+  version: 1.x
+  js:
+    js/index.js: {}
