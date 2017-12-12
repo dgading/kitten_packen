@@ -1,4 +1,14 @@
 global-styles:
   version: 1.x
   js:
-    js/index.js: {}
+    js/global.js: {}
+  css:
+    theme:
+      css/global.css: {}
+basic:
+  version: 1.x
+  js:
+    js/basic.js: {}
+  css:
+    theme:
+      css/basic.css: {}
