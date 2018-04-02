@@ -12,3 +12,9 @@ basic:
   css:
     theme:
       css/basic.css: {}
+  dependencies:
+    - kitten_packen/vuejs
+vuejs:
+  js: 
+    https://cdn.jsdelivr.net/npm/vue/dist/vue.js: {type: external}
+  
