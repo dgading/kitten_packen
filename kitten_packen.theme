@@ -1,0 +1,5 @@
+<?php
+
+function kitten_packen_preprocess_node(&$variables) {
+  $variables['#attached']['library'][] = 'kitten_packen/node';
+}

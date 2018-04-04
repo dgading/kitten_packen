@@ -5,13 +5,13 @@ global-styles:
   css:
     theme:
       css/global.css: {}
-basic:
+node:
   version: 1.x
   js:
-    js/basic.js: {}
+    js/node.js: {}
   css:
     theme:
-      css/basic.css: {}
+      css/node.css: {}
   dependencies:
     - kitten_packen/vuejs
 vuejs:

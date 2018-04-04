@@ -7,8 +7,7 @@ var ExtractCSS = new ExtractTextPlugin('[name].css');
 module.exports = [
   {
     entry: {
-      global: './src/js/index.js',
-      basic: './src/js/basic/index.js',
+      node: './src/js/node/index.js',
     },
     output: {
       filename: '[name].js',
@@ -17,8 +16,8 @@ module.exports = [
   },
   {
     entry: {
-      global: './src/css/index.css',
-      basic: './src/css/basic/index.css',
+      global: ['./src/css/index.css', './src/css/layout.css'],
+      node: './src/css/node/index.css',
     },
     output: {
       filename: '[name].css',

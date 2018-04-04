@@ -80,9 +80,7 @@
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
   ]
 %}
-{{ attach_library('kitten_packen/basic') }}
 <article{{ attributes.addClass(classes) }}>
-<div id="app">{% verbatim %}{{message}}{% endverbatim %}</div>
   {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
